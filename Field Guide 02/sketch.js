@@ -11,31 +11,23 @@ function setup() {}
 function keyPressed() {
     if (key == ' ') { //if space bar is pressed 
         if (document.title == "intro") { //if the page title is "intro"
-            window.location.replace("page1.html"); //go to page1.html
+            window.location.replace("page1.html"); //go to page1.html 
         }
         if (document.title == "page1") {
             window.location.replace("page2.html");
         }
         if (document.title == "page2") {
             window.location.replace("page3.html");
-            
-            }
+
+        }
         if (document.title == "page3") {
             window.location.replace("page4.html");
-        }
-        
         }
         if (document.title == "page4") {
             window.location.replace("page5.html");
         }
-    
-    }
         if (document.title == "page5") {
             window.location.replace("page6.html");
-        }
-
-
-
         }
     }
 }
